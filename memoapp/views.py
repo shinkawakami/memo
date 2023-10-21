@@ -5,3 +5,6 @@ from django.http import HttpResponse
 
 def home(request):
     return HttpResponse("Hello, World!")
+    
+def new_page(request):
+    return render(request, 'memoapp/new_page.html')
