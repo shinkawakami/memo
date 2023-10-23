@@ -8,3 +8,6 @@ def home(request):
     
 def new_page(request):
     return render(request, 'memoapp/new_page.html')
+    
+def calendar_view(request):
+    return render(request, 'memoapp/calender.html', {})
